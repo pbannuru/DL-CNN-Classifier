@@ -10,3 +10,4 @@ git start . # open the file in local system
 """unit test = to test a single function developed"""
 
 """integration test = to check stages of pipeline together"""
+""" bash init_setup.sh"""
