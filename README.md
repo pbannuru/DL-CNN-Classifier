@@ -25,3 +25,6 @@ git start . # open the file in local system
 9. run tox for testing your package
 10. Update the dvc.yaml
 11. run "dvc repro" for running all the stages in pipeline
+
+
+<!-- ![]("./docs/images/Data Ingestion).png") -->
