@@ -1,17 +1,5 @@
 # DL-CNN-CLASSIFIER
-git start . # open the file in local system
 
-"""black = wether while creating functions we are following exact standard python structure will be tested with this"""
-
-### tox = test at diff environments
-### flake8 = any syntactical mistakes in cod ecan be highlighted by this
-# mypy = to check for typing error
-# pytest = to run unit test and integration test
-# unit test = to test a single function developed
-
-# integration test = to check stages of pipeline together
-
-# bash init_setup.sh
 
 ## workflow
 1.Update config.yaml
@@ -31,13 +19,37 @@ git start . # open the file in local system
 ![img]("https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png")
 
 
+git start . # open the file in local system
+
+"""black = wether while creating functions we are following exact standard python structure will be tested with this"""
+
+### tox = test at diff environments
+### flake8 = any syntactical mistakes in cod ecan be highlighted by this
+# mypy = to check for typing error
+# pytest = to run unit test and integration test
+# unit test = to test a single function developed
+
+# integration test = to check stages of pipeline together
+
+# bash init_setup.sh
 
 # tox commands:-
 1. tox
 2. tox --recreate
 
+# venv:
 conda activate C:\Users\pbann\DL-CNN-CLASSIFIER\env
 
-
+# to remove any folder through git command
+rm -rf ./env/ 
 
 src\deepClassifier\pipeline\stage_03_training.py
+
+# 
+rm ~/.condarc
+
+conda config --set env_prompt '({name})'
+
+conda activate ./env
+
+dvc dag
