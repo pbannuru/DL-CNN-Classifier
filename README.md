@@ -56,15 +56,22 @@ dvc dag
 
 ![img](https://raw.githubusercontent.com/c17hawke/FSDS_NOV_deepCNNClassifier/main/docs/images/Data%20Ingestion%402x%20(1).png)
 
+# MLflow
 
 STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
 
-MLFLOW_TRACKING_URI=https://dagshub.com/c17hawke/FSDS_NOV_deepCNNClassifier.mlflow \
-MLFLOW_TRACKING_USERNAME=c17hawke \
-MLFLOW_TRACKING_PASSWORD=<> \
+MLFLOW_TRACKING_URI=https://dagshub.com/pbannuru/DL-CNN-Classifier.mlflow \
+MLFLOW_TRACKING_USERNAME=pbannuru \
+MLFLOW_TRACKING_PASSWORD=2c0dd960694539cb43d49fe29cbfe27802bccf34 \
+
 
 STEP 2: install mlflow
 
 STEP 3: Set remote URI
 
 STEP 4: Use context manager of mlflow to start run and then log metrics, params and model
+
+
+docker run -p 8501:8501 pred_service
+
+282aad428c79 -docker image id

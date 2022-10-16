@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/pbann/DL-CNN-CLASSIFIER/research/mlflow_dir/mlruns/0/58193ca793c940a682cd4943c99f9af0/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 58193ca793c940a682cd4943c99f9af0
+run_uuid: 58193ca793c940a682cd4943c99f9af0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1664714035649
+status: 1
+tags: []
+user_id: pbann
