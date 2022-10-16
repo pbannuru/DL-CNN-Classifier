@@ -1,4 +1,4 @@
-mport pytest
+import pytest
 from deepClassifier.entity import DataIngestionConfig
 from deepClassifier.components import DataIngestion
 from pathlib import Path
