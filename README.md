@@ -75,3 +75,5 @@ STEP 4: Use context manager of mlflow to start run and then log metrics, params 
 docker run -p 8501:8501 pred_service
 
 282aad428c79 -docker image id
+# to overcome build wheel error:
+pip3 install --upgrade pip setuptools wheel
